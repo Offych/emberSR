@@ -2,7 +2,9 @@
   <img
     alt="Map image at coordinates {{@lat}},{{@lng}}"
     ...attributes
-    src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/{{@lng}},{{@lat}},{{@zoom}}/{{@width}}x{{@height}}@2x?access_token={{this.token}}"
+    {{!-- src="https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/{{@lng}},{{@lat}},{{@zoom}}/{{@width}}x{{@height}}@2x?access_token={{this.token}}" --}}
+    {{!-- src attribute was replaced in the class component file in getter src() --}}
+    src={{this.src}}
     width={{@width}} height={{@height}}
   >
 </div>
