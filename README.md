@@ -13,4 +13,6 @@
 8. Added test fot Components testing
     ember generate component-test component
 9. Create nav-bar component and using it
+10. Create application.hbs file as a starting point of app an pass rendering templates 
+    by using {{outlet}} keyword, template refactoring
 
