@@ -15,4 +15,11 @@
 9. Create nav-bar component and using it
 10. Create application.hbs file as a starting point of app an pass rendering templates 
     by using {{outlet}} keyword, template refactoring
+11. Creating Components using CLI and organizing code with Namespaced Components
+    using ...attributes (allow to pass attributes when invoking component Component::HTML tag -> attributes)
+        ex: rental component image insertion line:
+        <Rental::Image
+        src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+        alt="A picture of Grand Old Mansion" />
+    Adding tests for image Component
 
