@@ -8,4 +8,8 @@
 6. Testing module added 
     ember g acceptance-test name
     http://localhost:7357/ to check
+7. Creating a Component and refactor code in the templates to use id. {{yield}} keyword has been used to pass
+    content into it.
+8. Added test fot Components testing
+    ember generate component-test component
 
