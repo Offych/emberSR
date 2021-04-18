@@ -27,6 +27,11 @@
     Modify component's template using conditionals {{if conditional}} {{else}} {{/if}} // see image.hbs for example
     FYI: this is important for accessibility reasons using correct semantic tags (ex: click event in the button tag)
     Adding test fot behavior testing
+13. Creating component with component class js file (omitted by default)
+        ember generate component componentName --with-component-class (ember g component map -gc)
+    importing data from environment.js file 
+    Working with map component to usage with Map image API, then add Map component with its attributes in rental template
+
 
  
 
