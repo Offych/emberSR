@@ -3,4 +3,6 @@
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 2. Added index.hbs, style it and added image to the images folder.
 3. Added route to About page then create template for it.
+4. A new custom path for contact page has been created.
+5. Using <LinkTo> to navigate to Components.
 
