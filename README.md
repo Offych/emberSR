@@ -12,4 +12,5 @@
     content into it.
 8. Added test fot Components testing
     ember generate component-test component
+9. Create nav-bar component and using it
 
