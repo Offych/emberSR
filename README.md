@@ -5,4 +5,7 @@
 3. Added route to About page then create template for it.
 4. A new custom path for contact page has been created.
 5. Using <LinkTo> to navigate to Components.
+6. Testing module added 
+    ember g acceptance-test name
+    http://localhost:7357/ to check
 
