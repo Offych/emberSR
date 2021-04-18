@@ -22,4 +22,11 @@
         src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
         alt="A picture of Grand Old Mansion" />
     Adding tests for image Component
+12. Create class for image component to add behavior and interactivity using @tracked and @actions decorators
+        ember generate component-class componentName
+    Modify component's template using conditionals {{if conditional}} {{else}} {{/if}} // see image.hbs for example
+    FYI: this is important for accessibility reasons using correct semantic tags (ex: click event in the button tag)
+    Adding test fot behavior testing
+
+ 
 
