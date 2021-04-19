@@ -31,6 +31,9 @@
         ember generate component componentName --with-component-class (ember g component map -gc)
     importing data from environment.js file 
     Working with map component to usage with Map image API, then add Map component with its attributes in rental template
+14. Create route with @model to use it in component by @model directive, accessing properties from the  model:
+    {{@model.property}}
+
 
 
  
