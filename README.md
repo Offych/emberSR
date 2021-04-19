@@ -38,5 +38,7 @@
 16. Dynamic route implementation, adding route based on the id and create a different model to receive appropriate data based on ID.
 17. Creating Detailed Component, did a markup with data from model accorded to individual object, then add this
     to template as <Rental::Detailed @rental={{@model}} />
+18. Splattributes and the class Attribute
+19. Inject the Router service and use it by @service keyword in the class
 
 
