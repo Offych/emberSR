@@ -40,5 +40,8 @@
     to template as <Rental::Detailed @rental={{@model}} />
 18. Splattributes and the class Attribute
 19. Inject the Router service and use it by @service keyword in the class
+20. Ember Data, Adapters and Serializers
+    Adapters: how and where
+    Serializers: in charge of converting the data returned by the server into a format Ember Data can understand.
 
 
