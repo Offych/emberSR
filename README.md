@@ -35,8 +35,6 @@
     {{@model.property}}
 15. Adding mock data in JSON format, fetch and return it in the model 
     and render with {{#each}} loop in template
+16. Dynamic route implementation, adding route based on the id and create a different model to receive appropriate data based on ID.
 
-
-
- 
 
